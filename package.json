@@ -1,0 +1,19 @@
+{
+  "name": "movie-calamateo",
+  "version": "1.0.0",
+  "description": "App movies",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Calamateo/Movie-Calamateo.git"
+  },
+  "author": "Daniel Calamateo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Calamateo/Movie-Calamateo/issues"
+  },
+  "homepage": "https://github.com/Calamateo/Movie-Calamateo#readme"
+}
