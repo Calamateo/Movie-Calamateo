@@ -4,6 +4,7 @@ const $ = (id) => document.querySelector(id);
 const headerSection = $('#header');
 const trendingPreviewSection = $('#trendingPreview');
 const categoriesPreviewSection = $('#categoriesPreview');
+const categoriesPreviewTitle = $('.categoriesPreview-title');
 const genericSection = $('#genericList');
 const movieDetailSection = $('#movieDetail');
 
