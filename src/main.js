@@ -114,3 +114,10 @@ const getMovieDetails = async (movie_id) => {
 	movieDetailScore.textContent = movie.vote_average;
 	createCategories(movie.genres, movieDetailCategoriesList)
 }
+
+const relatedMovies = async (movie_id) => {
+	const { data: movie } = await api(`movie/${movie_id}/recommendations`)
+
+	createMovies(movie.results, relatedMoviesContainer)
+	relatedMoviesContainer.scrollTo(0, 0);
+}

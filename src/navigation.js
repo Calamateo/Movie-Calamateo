@@ -29,6 +29,8 @@ function navigator() {
     } else {
         homePage();
     }
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
 }
 
 function homePage() {
@@ -92,6 +94,7 @@ function movieDetailsPage() {
 
     const [_, id] = location.hash.split('=');
     getMovieDetails(id)
+    relatedMovies(id)
 }
 
 function searchPage() {
